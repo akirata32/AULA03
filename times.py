@@ -1,0 +1,7 @@
+nome1=input("qual o time 1")
+nome2=input("qual o time 2")
+gol1=int (input("quantos gols o time 1 fez"))
+gol2=int (input("quantos gols o time 2 fez"))
+if gol1>gol2 :print(f"o time {nome1} ganhou")
+elif gol2>gol1 :print(f"o time {nome2} ganhou")
+else:print("empate")
